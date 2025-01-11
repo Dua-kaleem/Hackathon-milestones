@@ -1,0 +1,129 @@
+
+
+body {
+    font-family: 'Times New Roman', Times, serif;
+    margin: 20px;
+    padding: 0;
+    background-color: white;
+}
+
+form {
+    margin: auto;
+    background-color: rgb(193, 220, 246);
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.5);
+   padding-bottom: 20px;
+    max-width: 600px;
+}
+
+h1 {
+    text-align: center;
+    color:white;
+    padding: 38px;   
+background: linear-gradient(to right, #1CB5E0, #000046);
+
+}
+
+fieldset {
+    
+    border: none;
+    padding: 20px;
+    margin: 10px 20px;
+    border-radius: 7px
+   ;
+    
+   
+}
+
+legend {
+    font-weight: bolder;
+    font-size: xx-large;
+    border-bottom:#1CB5E0 2px solid;
+    color:#000046;
+}
+
+label {
+    display: block;
+    margin-top: 10px;
+    color: black;
+
+}
+
+input,textarea {
+    margin-top: 4px;
+    padding: 8px;
+    width: calc(100% - 1px);
+   box-sizing: border-box;
+   border-radius: 5px;
+    border: #18186e 2px solid;
+}
+
+button {
+    display: block;
+    width: 80%;
+  
+    background: linear-gradient(to right, #191654, #43bfc6); 
+    color: black;
+    border: none;
+    border-radius: 4px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.5);
+    margin: auto;   
+    font-size: 18px;
+    font-family: 'Times New Roman', Times, serif;
+    padding: 10px;
+    cursor: pointer;
+}
+
+button :hover {
+    color: blue;
+}
+
+#resume-display {
+    max-width: 600px;
+    margin: 20px auto;
+    border: 2px solid skyblue;
+    border-radius: 8px;
+    background-color: rgb(228, 242, 255);
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.5);
+    padding: 20px;
+    font-family: Arial, sans-serif;
+    color: #333;
+}
+
+#resume-display h2 {
+    text-align: center;
+    color: white;
+    padding: 20px;
+    background: linear-gradient(to right, #1CB5E0, #000046);
+    margin: -20px -20px 20px -20px;
+    border-radius: 8px 8px 0 0;
+}
+
+#resume-display h3 {
+   
+    color: #000046;
+    margin-top: 20px;
+    font-size: x-large;
+    padding-bottom: 4px;
+    text-decoration: underline  skyblue  ;
+}
+
+#resume-display p {
+    margin: 10px 0;
+    line-height: 1.6;
+    word-wrap: break-word; 
+    overflow-wrap: break-word;
+    word-break: break-word;
+ 
+}
+
+#resume-display p b {
+    color: rgb(47, 178, 229);
+}
+#resume-display hr {
+    border: 0;
+    height: 1px;
+    background: #000042;
+    opacity: 0.7;
+    margin: 20px 0; 
+}
