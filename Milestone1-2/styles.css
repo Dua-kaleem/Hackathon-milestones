@@ -1,0 +1,302 @@
+* {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    
+    
+   
+  }
+  body{
+    background: #f0f0f0;
+  }
+
+.resume-container{
+    margin-top: 6%;
+    height: 100%;
+    width: 50%;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    margin-left: 25%;
+    background: #fff;
+    overflow: hidden;border-radius: 10px;
+}
+.top{
+height: 40vh;
+background: linear-gradient(358.3deg, rgb(255, 82, 168) 12.9%, hwb(269 46% 6%) 134.3%);
+  display: flex;
+
+
+}
+.left-top{
+    margin: 10px;
+    position: relative;
+    width: 30%;
+}
+
+
+
+.left-top h1{
+   
+    color: white;
+    margin-bottom: 15px;
+    padding-left: 17px;
+    text-shadow: 0 4px 8px rgba(101, 92, 92, 0.714);
+}
+
+.profile-sec img{
+    
+    height: 150px;
+    width: 150px;
+    border-radius: 50%;
+    border: 3px solid white;
+    margin: 40px 30px 15px;
+    box-shadow: 0 4px 8px rgb(131, 23, 113);
+}
+
+.right-top{
+    margin-top: 4%;
+   padding: 20px;
+    width: 70%;
+    color: white;
+    text-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    font-size: larger;
+}
+.bottom{
+   display: flex;
+   flex-direction: row;
+   gap: 50px;
+   flex-wrap: wrap;
+  margin-top: 30px;
+  padding: 15px;
+   list-style: none;
+   text-decoration: none;
+   
+
+}
+
+.bottom h3{
+    font-size: x-large;
+    margin-bottom: 20px;
+ 
+ border-radius: 4px;
+    background: linear-gradient(358.3deg, rgb(255, 82, 168) 12.9%, hwb(269 46% 6%) 134.3%);
+}
+
+.contact h3{
+  width: 150px;
+  padding: 7px;
+  text-align: center;
+}
+
+.contact ul li{
+  list-style: none;
+ padding: 10px;
+ font-size: larger;
+
+ 
+}
+
+.contact ul li a{
+  text-decoration: none;
+  color: black;
+}
+
+.contact ul li a{
+  padding: 10px;
+}
+
+.education h3{
+width: 150px;
+padding: 10px;
+text-align: center;
+}
+
+.education h4{
+  color: rgba(53, 42, 42, 0.932);
+font-size: 20px;
+padding-top: 15px;
+padding-bottom: 6px;
+width: 200px;
+border-bottom: rgba(53, 42, 42, 0.932) 2px solid;
+}
+
+.education p{
+  padding-top: 10px;
+  font-weight: 400;
+  font-size: medium;
+}
+.grad-years{
+  font-size: large;
+  padding-right:7px ;
+  font-weight: bold;
+}
+
+.skills-section{
+  width: 30%;
+  margin-right: 15%;
+
+}
+.skills-section h3{
+  width: 150px;
+  text-align: center;
+  padding: 10px;
+}
+
+.skills-section ul{
+  list-style: none;
+ 
+}
+
+.skills-section{
+  width: 150px;
+  padding: 7px;
+  text-align: center;
+}
+
+.skills-section .skill-bar {
+  display: block;
+  background: #e0e0e0;
+  height: 5px;
+  border-radius: 5px;
+ overflow: hidden;
+  margin-top: 5px;
+}
+
+.skills-section .skill-bar span {
+  display: block;
+  height: 100%;
+  background: linear-gradient(358.3deg, rgb(255, 82, 168) 12.9%, hwb(269 46% 6%) 134.3%);
+}
+
+.work-exp{
+  width: 50%;
+  margin-bottom: 0%;
+}
+.work-exp h3{
+  width: 200px;
+  text-align: center;
+  padding: 10px;
+}
+
+.hobbies-section{
+  display: flex;
+  padding: 10px;
+  margin-top: 0%;
+ 
+}
+.hobbies {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 10px;
+}
+.hobbies-section h3{
+  width : 100px;
+  padding: 10px;
+  text-align: center;
+  margin-right: 19px;
+
+}
+.hobbies li {
+  background: rgba(255, 82, 169, 0.859);
+  color: white;
+padding: 5px 10px;
+ height: 40px;
+ text-align: center;
+  border-radius: 5px;
+  list-style: none;
+}
+#toggle-skills{
+  width: 180px;
+  height: 50px;
+  margin-left: auto;
+  color: black;
+  font-weight: bold;
+  box-shadow: 0 4px 8px rgb(131, 23, 113);
+}
+
+
+
+@media screen and (max-width: 480px) {
+  .resume-container{
+    margin-top: 6%;
+    height: 100%;
+    width: 100%;
+    margin-left: 0;
+   
+  
+    
+ }
+  h1 {
+      font-size: 1rem; 
+      margin-left:26% ;
+    
+  }
+  .profile-sec img{
+    
+    height: 100px;
+    width: 100px; 
+    margin-left:30% ;
+    
+}
+
+.top{
+  height: 100%;
+  
+  display: flex;
+  flex-direction: column;
+  
+  
+  }
+  .left-top{
+    width: 100%;
+   
+}
+.right-top{
+ width: 100%;
+font-size: 0.9rem;
+padding:   10px 5px;
+}
+.right-top p{
+  padding:  0 10px 5px;
+}
+.work-exp{
+  width: 100%;
+ 
+}
+.hobbies-section{
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+}
+
+
+.hobbies-section h3{
+width: 100%;
+display: inline-block;
+margin-bottom: 5px;
+}
+
+.hobbies li {
+  background: rgba(255, 82, 169, 0.859);
+  width: 90px;
+  color: white;
+padding: auto;
+margin: auto;
+ text-align: center;
+  border-radius: 5px;
+  list-style: none;
+}
+}
+@media screen and (max-width: 768px) {
+  .resume-container{
+    margin-top: 6%;
+    height: 100%;
+    width: 100%;
+    margin-left: 0;
+   
+  
+    
+ }
+ .top{
+  height: auto;
+ }
+}
